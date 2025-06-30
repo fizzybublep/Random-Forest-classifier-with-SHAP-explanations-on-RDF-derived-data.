@@ -3,14 +3,16 @@ DEPENDENCIES
 # Python version
 python==3.10.18
 
-# Core packages
-ipykernel
+# Core packages for data handling and ML
 pandas
 rdflib
 scikit-learn
-shap
 matplotlib
+shap
 
-# Optional dependency for interactive SHAP plots
-# Must be installed separately if interactive plots are needed
-# Install via conda: conda install -c conda-forge nodejs
+# Jupyter integration
+ipykernel
+ipywidgets  # Enables SHAP interactive plots
+
+# Optional: for SHAP JS plots in Jupyter (must be installed via conda)
+# conda install -c conda-forge nodejs

@@ -14,5 +14,5 @@ shap
 ipykernel
 ipywidgets  # Enables SHAP interactive plots
 
-# Optional: for SHAP JS plots in Jupyter (must be installed via conda)
+# for SHAP JS plots in Jupyter (can be installed via conda)
 # conda install -c conda-forge nodejs

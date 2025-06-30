@@ -3,6 +3,14 @@
 ## Project Overview
 A machine learning project using a Random Forest classifier trained on RDF-derived data with SHAP explanations for model interpretability.
 
+## Main Files
+
+- `tabular_training_testing.ipynb`  
+  Contains the main pipeline for conversion into tabular data, training, testing, evaluation and explaining the Random Forest classifier using SHAP.
+
+- `strategy2a,analysis.ipynb`  
+  Handles RDF data analysis using SPARQL.
+
 ## Project Overview
 - Loaded RDF DATA from aifbfixed_complete.n3 to extract features for entities in trainingSet.tsv and testSet.tsv.
 - Each literal features and labels for each entity were encoded.
@@ -18,7 +26,6 @@ A machine learning project using a Random Forest classifier trained on RDF-deriv
 - `completeDataset.tsv`  - All entities of the trainingSet.tsv and testSet.tsv including their labels.
 - `tabular_training_testing.ipynb` - Includes conversion of the rdf dataset into tabular form, feature encoding, training, testing, evaluation and interpretation of the model using SHAP.
 - `strategy2a,analysis.ipynb` - Analysis of the rdf data set using SPARQL.
-- `tabular_training_testing-checkpoint.ipynb`, `strategy2a,analysis-checkpoint.ipynb` - Saved checkpoints for each notebook.
 - `rf_model.pkl` - Saving the model.
 - `README.md` – Project documentation.
 

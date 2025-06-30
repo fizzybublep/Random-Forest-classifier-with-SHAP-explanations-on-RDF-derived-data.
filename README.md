@@ -37,3 +37,4 @@ A machine learning project using a Random Forest classifier trained on RDF-deriv
 - shap
 - matplotlib
 # Node.js must be installed separately for SHAP interactive plots, (conda install -c conda-forge nodejs if done using conda prompt)
+- ipywidgets  # Required for SHAP interactive plots in Jupyter
